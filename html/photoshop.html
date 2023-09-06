@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Bupo's Photoshop Artwork</title>
+</head>
+<header>
+    <div class="outer">
+        <div class="inner">
+            <div class="center" id="bupo">
+                <img src="../img/bupo.png" alt="bupo" width="200">
+            </div>
+        </div>
+    </div>
+</header>
+<header id="header2">
+    <div id="myHeader" class="stickyHeader">
+        <p class="titulo">PHOTOSHOP</p>
+        <div class="navMenu">
+            <a href="../index.html" class="textoNav">INICIO</a>
+            <a href="disenouxui.html" class="textoNav">DISEÑO UX UI</a>
+            <a href="photoshop.html" class="textoNav" style="color: rgb(255, 115, 0)">PHOTOSHOP</a>
+            <a href="pixelart.html" class="textoNav">PIXEL ART</a>
+            <a href="disenonivel.html" class="textoNav">DISEÑO DE NIVEL</a>
+            <a href="cosplay.html" class="textoNav">COSPLAY</a>
+        </div>
+    </div>
+</header>
+<body id="pageTop">
+    <div class="outer2">
+        <div class="menu">
+            <div>
+                <p class="bodyText">
+                    Desde hace mucho me gusta editar imagenes, sea para hacer memes o para probar si puedo llevar a cabo una idea. 
+                </p>
+                <p class="bodyText">
+                    Primero empecé con Microsoft Paint, luego con Paint.NET (el cual todavia uso), y finalmente Photoshop.
+                </p>
+                <p class="bodyText">
+                    A continuación, algunos ejemplos de mi trabajo.
+                </p>
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_01.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_02.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_03.png" alt="Meme">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_04.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_05.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_06.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_07.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_08.png" alt="Proyecto personal">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_09.png" alt="Trabajop de la escuela">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_10.png" alt="Trabajop de la escuela">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_11.png" alt="Trabajop de la escuela">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_12.png" alt="Trabajop de la escuela">
+                <img class="imagenMuestra" src="../img/PHOTOSHOP_13.png" alt="Proyecto personal">
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/santiagobaublis/">
+                    <img src="../img/ig.png" alt="Instagram" width="48"></a>
+                <a href="https://www.youtube.com/@santiagobaublis7238/featured">
+                    <img src="../img/yt.png" alt="YouTube" width="48"></a>
+                <a href="https://www.linkedin.com/in/santiago-baublis">
+                    <img src="../img/linked.png" alt="LinkedIn" width="48"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toTop">
+        <a href="#pageTop"> <img src="../img/top.png" alt="Back to top" width="64"> </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var bupo = document.getElementById("bupo");
+        var sticky = (bupo.offsetHeight) + 15
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+<footer>
+    <div class="outerFooter">
+        <div class="innerFooter">
+            <p class="footerText">© 2023 Bupo's Portfolio. Made by Santiago "Bupo" Baublis</p>
+        </div>
+    </div>
+</footer>
+</html>

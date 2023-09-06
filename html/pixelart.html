@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Bupo's Pixel Art</title>
+</head>
+<header>
+    <div class="outer">
+        <div class="inner">
+            <div class="center" id="bupo">
+                <img src="../img/bupo.png" alt="bupo" width="200">
+            </div>
+        </div>
+    </div>
+</header>
+<header id="header2">
+    <div id="myHeader" class="stickyHeader">
+        <p class="titulo">PIXEL ART</p>
+        <div class="navMenu">
+            <a href="../index.html" class="textoNav">INICIO</a>
+            <a href="disenouxui.html" class="textoNav">DISEÑO UX UI</a>
+            <a href="photoshop.html" class="textoNav">PHOTOSHOP</a>
+            <a href="pixelart.html" class="textoNav" style="color: rgb(255, 115, 0)">PIXEL ART</a>
+            <a href="disenonivel.html" class="textoNav">DISEÑO DE NIVEL</a>
+            <a href="cosplay.html" class="textoNav">COSPLAY</a>
+        </div>
+    </div>
+</header>
+<body id="pageTop">
+    <div class="outer2">
+        <div class="menu">
+            <div>
+                <p class="bodyText">
+                    En mi intento de indagar en el desarrollo de videojuegos, me terminé tornando por el ámbito de modificar juegos ya existentes. Uno de estos juegos es The Binding of Isaac Reepentance. Del cual tengo dos proyectos de mod; uno dirigido a mis amigos y otro es un mod que agrega personajes, armas, jugabilidad y entornos del videojuego Half-Life.
+                </p>
+                <p class="bodyText">
+                    Para llevar a cabo estos mods, tuve que aprender a programar en el lenguaje de LUA y la API de Isaac.
+                    Durante ambos proyectos, utilicé herramientas como Notepad++, Visual Studio Code, Paint.NET, Photoshop y otras herramientas que ofrece el juego.
+                </p>
+                <p class="bodyText">
+                    A continuación, algunos ejemplos de mi trabajo.
+                </p>
+                <h1 class="titulo" style="font-size: 24px; text-align: center;">Mod de Isaac Repentance</h1>
+                <br>
+                <img class="imagenMuestra" src="../img/ISAAC_1.png" alt="Anomalous Materials">
+                <img class="imagenMuestra" src="../img/ISAAC_2.png" alt="Office Complex">
+                <img class="imagenMuestra" src="../img/ISAAC_3.png" alt="We've Got Hostiles">
+                <img class="imagenMuestra" src="../img/ISAAC_4.png" alt="Blast Pit">
+                <img class="imagenMuestra" src="../img/ISAAC_5.png" alt="Residue Processing">
+                <img class="imagenMuestra" src="../img/ISAAC_0.png" alt="Questionable Ethics">
+                <img class="imagenMuestra" src="../img/ISAAC_6.png" alt="Lambda Core">
+
+                <img class="imagenMuestra" src="../img/ISAAC_7.png" alt="Menu principal">
+                <img class="imagenMuestra" src="../img/ISAAC_8.png" alt="Menu de personajes">
+                <img class="imagenMuestra" src="../img/ISAAC_9.png" alt="Menu de items">
+                <h1 class="titulo" style="font-size: 24px; text-align: center;">Otros pixel art</h1>
+                <img class="imagenMuestra" src="../img/PIXEL_1.png" alt="Logo de Medal of Honor Allied Assault">
+                <img class="imagenMuestra" src="../img/PIXEL_2.png" alt="Logo de Sum 41">
+                <img class="imagenMuestra" src="../img/PIXEL_3.png" alt="Logo de Sum 41">
+                <img class="imagenMuestra" src="../img/PIXEL_4.png" alt="Dibujo original en pixel art">
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/santiagobaublis/">
+                    <img src="../img/ig.png" alt="Instagram" width="48"></a>
+                <a href="https://www.youtube.com/@santiagobaublis7238/featured">
+                    <img src="../img/yt.png" alt="YouTube" width="48"></a>
+                <a href="https://www.linkedin.com/in/santiago-baublis">
+                    <img src="../img/linked.png" alt="LinkedIn" width="48"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toTop">
+        <a href="#pageTop"> <img src="../img/top.png" alt="Back to top" width="64"> </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var bupo = document.getElementById("bupo");
+        var sticky = (bupo.offsetHeight) + 15
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+<footer>
+    <div class="outerFooter">
+        <div class="innerFooter">
+            <p class="footerText">© 2023 Bupo's Portfolio. Made by Santiago "Bupo" Baublis</p>
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Helvetica-Rounded-Bold";
+    src: url(../font/Helvetica\ Rounded\ Bold.otf);
+}
+
+.inner{  
+    -border: 0.05em solid black;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+#header2{
+    margin-bottom: 10px;
+}
+.outer{
+    background-color: rgb(10, 10, 10);
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.outerFooter{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.innerFooter{  
+    -border: 0.05em solid black;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.outer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.stickyHeader{
+    background-color: rgb(10, 10, 10);
+    justify-content: center;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.navMenu{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.textoNav{
+    font-family: Helvetica-Rounded-Bold;
+    font-weight: 550;
+    font-size: 1rem;
+    color: white;
+}
+.menu{
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border: 10px solid rgb(10, 10, 10);
+    width: 50%;
+    justify-content: center;
+    margin: 0%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    margin: 0%;
+    padding-top: 10px;
+    font-family: Helvetica-Rounded-Bold;
+    font-weight: 550;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+}
+.subtitulo{
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+    padding-bottom: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    justify-content: center;
+}
+
+.botonImagen{
+    position: relative;
+}
+
+.textoImagen{
+    position: absolute;
+    font-family: Helvetica-Rounded-Bold;
+    font-weight: 550;
+    font-size: 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin: 0%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+body{
+    background-color: rgb(255, 115, 0);
+    background:url(../img/bg.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100% ;
+    margin: 0%;
+}
+
+.imagenPortfolio{
+    opacity: 0.5;
+    width: 100%;
+}
+.imagenMuestra{
+    width: 100%;
+}
+.imagenPortfolio:hover{
+    opacity: 1;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+}
+.boton{
+    font-family: Helvetica-Rounded-Bold;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(255, 97, 0);
+    border: 20px;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+}
+.botonHolder{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+}
+.footerText{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+.bodyText{
+    border: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+    margin: 6px;
+}
+.toTop{
+    position: fixed;
+    right: 5px;
+    bottom: 60px;
+}

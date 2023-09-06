@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Bupo's UX Design</title>
+</head>
+<header>
+    <div class="outer">
+        <div class="inner">
+            <div class="center" id="bupo">
+                <img src="../img/bupo.png" alt="bupo" width="200">
+            </div>
+        </div>
+    </div>
+</header>
+<header id="header2">
+    <div id="myHeader" class="stickyHeader">
+        <p class="titulo">DISEÑO UX UI</p>
+        <div class="navMenu">
+            <a href="../index.html" class="textoNav">INICIO</a>
+            <a href="disenouxui.html" class="textoNav" style="color: rgb(255, 115, 0)">DISEÑO UX UI</a>
+            <a href="photoshop.html" class="textoNav">PHOTOSHOP</a>
+            <a href="pixelart.html" class="textoNav">PIXEL ART</a>
+            <a href="disenonivel.html" class="textoNav">DISEÑO DE NIVEL</a>
+            <a href="cosplay.html" class="textoNav">COSPLAY</a>
+        </div>
+    </div>
+</header>
+<body id="pageTop">
+    <div class="outer2">
+        <div class="menu">
+            <div>
+                <p class="bodyText">
+                    A lo largo de los cuatro cursos que conforman la carrera de Desarrollo Web de, he aprendido mucho sobre el estudio del diseño de experiencia de usuario y de diseño de interfaz de usuario. Sumado a los estudios que hice durante mi estadía en la Secundaria Belgrano N°2060, de la cual me gradué con un BACHILLERATO EN COMUNICACIÓN, logré conquistar los programas esenciales para el diseño y aplicar mi conocimiento para desarrollar prototipos funcionales de aplicaciones móviles desarrolladas a partir de feedback de los usuarios.
+                </p>
+                <p class="bodyText">
+                    En este campo destaco con los programas de Adobe Illustrator, Adobe Photoshop y Figma.
+                </p>
+                <p class="bodyText">
+                    A continuación, algunos ejemplos de mi trabajo.
+                </p>
+                <h1 class="titulo" style="font-size: 24px; text-align: center;">REDISEÑO APP MOVI</h1>
+                <br>
+                <img class="imagenMuestra" src="../img/DISEÑOUXUI_2.png" alt="Mockup Rediseño MOVI">
+                <img class="imagenMuestra" src="../img/DISEÑOUXUI_3.png" alt="Mockup Rediseño MOVI">
+                <div class="botonHolder">
+                    <div class="boton">
+                        <a class="boton" href="https://docs.google.com/presentation/d/1NJbsZyzfDLYEkBIkSHlZwOaSouEE2foMxlOHRYzKu58/edit?usp=sharing">Plan de marketing + Prototipo funcional</a>
+                    </div>
+                </div>
+                <img class="imagenMuestra" src="../img/DISEÑOUXUI_1.png" alt="Mockup Rediseño MOVI">
+                <img class="imagenMuestra" src="../img/DISEÑOUXUI_4.png" alt="Mockup Rediseño MOVI">
+                <div class="botonHolder">
+                    <div class="boton">
+                        <a class="boton" href="https://docs.google.com/presentation/d/1ncsYq90r3SBTdbuvZ2KntzwpYDZpoF3OxIv2mzd9zrU/edit#slide=id.g242f1679022_0_60">Plan de marketing + Prototipo funcional</a>
+                    </div>
+                </div>
+            </div>
+            <div class="socials">
+                <a href="https://www.instagram.com/santiagobaublis/">
+                    <img src="../img/ig.png" alt="Instagram" width="48"></a>
+                <a href="https://www.youtube.com/@santiagobaublis7238/featured">
+                    <img src="../img/yt.png" alt="YouTube" width="48"></a>
+                <a href="https://www.linkedin.com/in/santiago-baublis">
+                    <img src="../img/linked.png" alt="LinkedIn" width="48"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toTop">
+        <a href="#pageTop"> <img src="../img/top.png" alt="Back to top" width="64"> </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var bupo = document.getElementById("bupo");
+        var sticky = (bupo.offsetHeight) + 15
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+<footer>
+    <div class="outerFooter">
+        <div class="innerFooter">
+            <p class="footerText">© 2023 Bupo's Portfolio. Made by Santiago "Bupo" Baublis</p>
+        </div>
+    </div>
+</footer>
+</html>
